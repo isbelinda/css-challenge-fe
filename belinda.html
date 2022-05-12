@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Belinda: part1-25mins</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Sarabun', sans-serif;
+        font-size: 16px;
+        max-width: 378px;
+      }
+      .navbar {
+        border-bottom: 1px solid #EFF0F4;
+        display: flex;
+        padding: 16px 0;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+      }
+      .navbar i {
+        padding: 0 16px;
+        color: #4B5161;
+      }
+      .navbar .spacer {
+        width: 44.5px;
+      }
+
+      /*
+        bg orange: #FFF2E5
+        orange primary: #FF8300
+        text black: #0E162C
+        text grey: #878B96
+        divider: #EFF0F4
+        link: #118DF5
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+      */
+      .button {
+        border-radius: 100px;
+        background-color: #FF8300;
+        font-size: 18px;
+        padding: 12px 24px;
+        border: none;
+        color: #fff;
+        width: 100%;
+      }
+
+      .loan-name {
+        display: flex;
+        align-items: center;
+      }
+      .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+      }
+      .logo img {
+        max-width: 100%;
+      }
+
+      .note {
+        background-color: #FFF2E5;
+        border-radius: 8px;
+        padding: 16px;
+        margin-top: 24px;
+        font-size: 14px;
+      }
+      .note .description {
+        margin-top: 16px;
+      }
+
+      .detail {
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .detail.summary {
+        padding: 16px 0;
+      }
+      
+      .content {
+        padding: 16px
+      }
+      .content.shadow {
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+      }
+
+      h4{
+        font-size: 16px;
+        margin-top: 8px;
+      }
+      .hr {
+        border-bottom: 1px solid #EFF0F4;
+        margin-left: 16px;
+      }
+
+      a {
+        color: #118DF5;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      a.icon i {
+        margin-left: 4px;
+        font-size: 12px;
+      }
+
+      .flex {
+        display: flex; 
+      }
+      .space-between {
+        justify-content: space-between;
+      }
+
+      .text-grey {
+        color: #878B96;
+      }
+
+      .f-xs {
+        font-size: 14px;
+      }
+
+      .pt-16 {
+        padding-top: 16px;
+      }
+      .my-16 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <i class="fa-solid fa-chevron-left"></i>
+      <b>ยืนยันการทำรายการ</b>
+      <div class="spacer"></div>
+    </nav>
+    <div class="content">
+      <div class="loan-name">
+        <div class="logo">
+          <img src="https://cdn-loan-resource.nno-dev.com/images/ic-product-paynextextra.png"/>
+        </div>
+        <b>Pay Next Extra</b>
+      </div>
+      <h4 class="pt-16">รายละเอียด</h4>
+      <div class="detail">
+        <div>รายการผ่อนชำระ</div>
+        <div>฿ x,xxx.xx</div>
+      </div>
+      <div class="note f-xs">
+        <b>หมายเหตุ</b>
+        <div class="description">
+          รายละเอียดการผ่อนชำระ
+          ผ่อนชำระ xx เดือน
+          ดอกเบี้ย 25% ต่อปี
+          ยอดผ่อนชำระต่อเดือน xxx.xx บาท
+          <br/>
+          <br/>
+          ชำระคืนแอสเซนด์ นาโน ผ่านหน้าสินเชื่อ
+          สอบถามเพิ่มเติม ที่ศุนย์บริการลูกค้า แอสเซนด์ นาโน 
+          1240 กด 3 ในวันจันทร์ – วันศุกร์ เวลา 8.30 – 20.00 น. และวันเสาร์ – วันอาทิตย์ เวลา 10.00 – 20.00 น
+        </div>
+      </div>
+    </div>
+    <div class="hr"></div>
+    <div class="content shadow">
+      <a href="#" class="link icon">ย่อรายละเอียด <i class="fa-solid fa-chevron-up"></i></a>
+      <div class="detail pt-16">
+        <div><b>ยอดชำระ</b></div>
+        <div><b>฿ 89.26</b></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="flex space-between">
+        <b>ช่องทางการชำระเงิน</b>
+        <a href="#">เปลี่ยน</a>
+      </div>
+
+      <div class="flex pt-16">
+        <div class="logo">
+          <img src="https://belinda-css-challenge-fe.vercel.app/images/tmn-logo.png"/>
+        </div>
+        <div>
+          <div>ทรูมันนี่ วอลเล็ท</div>
+          <div class="text-grey f-xs">ยอดเงินที่มี 1,230.00 บาท</div>
+        </div>
+      </div>
+    </div>
+    <div class="hr"></div>
+    <div class="content">
+      <button class="button">ชำระเงิน</button>
+    </div>
+  </body>
+</html>

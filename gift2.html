@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Sarabun', sans-serif;
+        font-size: 16px;
+        max-width: 378px;
+      }
+      .navbar {
+        border-bottom: 1px solid #EFF0F4;
+        display: flex;
+        padding: 16px 0;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+      }
+      .navbar i {
+        padding: 0 16px;
+        color: #4B5161;
+      }
+      .spacer {
+        width: 44.5px;
+      }
+      .content {
+        padding: 16px;
+      }
+      .pne-image {
+        width: 50px;
+        padding-right: 16px;
+      }
+      .logo-section {
+        display: flex;
+        align-items: center;
+        padding-bottom: 8px
+      }
+      .detail-section {
+        padding: 24px 0px;
+      }
+      .installment-amount {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 16px;
+      }
+      .remark {
+        background-color: #FFF2E5;
+        padding: 16px;
+        border-radius: 8px;
+        margin: 16px 0px
+      }
+      .remark-content {
+        padding-top: 8px;
+      }
+      .repay-success-image {
+        width: 120px;
+      }
+      .repay-success-section {
+        text-align: center;
+      }
+      .repay-amount {
+        font-size: 22px;
+        padding: 8px 0px;
+        font-weight: bold;
+      }
+      .repay-info-table {
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+        padding: 16px;
+        border-radius: 8px;
+      }
+      .repay-info {
+        display: flex;
+        justify-content: space-between;
+      }
+      .repay-info-section {
+        padding: 8px 0px;
+      }
+      .menu-icon {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 8px;
+      }
+      .size-24 {
+        font-size: 24px;
+      }
+      .menu {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      .button-section {
+        justify-content: center;
+        display: flex;
+        padding: 16px 0px;
+      }
+      .button {
+
+      }
+    </style>
+    <title>your name</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <i class="fa-solid fa-chevron-left"></i>
+      <b>ยืนยันการทำรายการ</b>
+      <div class="spacer"></div>
+    </nav>
+    
+    <div class="content">
+      <div class="repay-success-section">
+        <img class="repay-success-image" src="https://belinda-css-challenge-fe.vercel.app/images/repay-success.png"/>
+        <div class="repay-amount">฿ x,xxx.xx</div>
+      </div>
+      <div class="repay-info-table">
+        <div class="logo-section">
+          <img class="pne-image" src="https://cdn-loan-resource.nno-dev.com/images/ic-product-paynextextra.png"/>
+          <div><b>Pay Next Extra</b></div>
+        </div>
+        <hr>
+        <div class="repay-info-section">
+          <div class="repay-info">
+            <div>ช่องทางการชำระเงิน</div>
+            <div>ทรูมันนี่ วอลเล็ท</div>
+          </div>
+          <div class="repay-info">
+            <div>วันที่ทำรายการ</div>
+            <div>1 ก.พ. 2564 10:12:00</div>
+          </div>
+          <div class="repay-info">
+            <div>หมายเลขการสั่งซื้อ</div>
+            <div>30513191212010268</div>
+          </div>
+          <div class="repay-info">
+            <div>เลขที่รายการ</div>
+            <div>1912121012005293UI8B</div>
+          </div>
+        </div>
+        <hr>
+        <div class="repay-info-section">
+          <div class="repay-info">
+            <div>เงินต้นที่เลือกผ่อนชำระ</div>
+            <div>฿ x,xxx.xx</div>
+          </div>
+        </div>
+        <hr>
+        <div class="repay-info-section">
+          <div class="repay-info">
+            <div>ยอดชำระทั้งหมด</div>
+            <div>฿ x,xxx.xx</div>
+          </div>
+          <div class="remark">
+          <div>
+            <b>หมายเหตุ</b>
+            <div class="remark-content">
+              รายละเอียดการผ่อนชำระ <br>
+              ผ่อนชำระ xx เดือน <br>
+              ดอกเบี้ย 25% ต่อปี <br>
+              ยอดผ่อนชำระต่อเดือน xxx.xx บาท <br>
+              <br>
+              ชำระคืนแอสเซนด์ นาโน ผ่านหน้าสินเชื่อ <br>
+              สอบถามเพิ่มเติม ที่ศุนย์บริการลูกค้า แอสเซนด์ นาโน <br>
+              1240 กด 3 ในวันจันทร์ – วันศุกร์ เวลา 8.30 – 20.00 น. และวันเสาร์ – วันอาทิตย์ เวลา 10.00 – 20.00 น
+            </div>
+          </div>
+        </div>
+        </div>
+        <hr>
+        <div class="menu-icon">
+          <div class="menu">
+            <i class="fa-solid fa-share-nodes size-24"></i>
+            <div>แชร์</div>
+          </div>
+          <div class="menu">
+            <i class="fa-solid fa-arrow-down-long size-24"></i>
+            <div>บันทึกใบเสร็จ</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="button-section">
+        <button class="button">กลับสู่หน้าหลัก</button>
+      </div>
+      
+    </div>
+  </body>
+</html>
+  
+ 

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>your name</title>
+    <style>
+      html {
+        box-sizing: content-box;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Sarabun', sans-serif;
+        font-size: 16px;
+        max-width: 378px;
+      }
+      h5 {
+        font-size: 16px;
+        margin: 0;
+      }
+      .navbar {
+        border-bottom: 1px solid #EFF0F4;
+        display: flex;
+        padding: 16px 0;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+      }
+      .navbar i {
+        padding: 0 16px;
+        color: #4B5161;
+      }
+      .navbar .spacer {
+        width: 44.5px;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 8px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+        padding: 16px;
+        margin-bottom: 8px;
+      }
+      .product-label {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+      .product-label img {
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 16px;
+      }
+      .list-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 16px 0;
+      }
+      .remark {
+        width: 100%;
+        background-color: #FFF2E5;
+        padding: 16px;
+      }
+      .remark h5 {
+        margin-bottom: 16px;
+      }
+      .separator {
+        width: 100%;
+        height: 0px;
+        border: 1px solid #EFF0F4;
+        margin: 16px 0;
+      }
+      .link {
+        color: #118DF5;
+      }
+      .small-text {
+        font-size: 12px;
+      }
+
+      /*
+        bg orange: #FFF2E5
+        orange primary: #FF8300
+        text black: #0E162C
+        text grey: #878B96
+        divider: #EFF0F4
+        link: #118DF5
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+        icon color: #4B5161;
+      */
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <i class="fa-solid fa-chevron-left"></i>
+      <b>ยืนยันการทำรายการ</b>
+      <div class="spacer"></div>
+    </nav>
+
+    <section class="card">
+      <div class="product-label">
+        <img src="https://cdn-loan-resource.nno-dev.com/images/ic-product-paynextextra.png"/>
+        <h5>Pay Next Extra</h5>
+      </div>
+      <h5>รายละเอียด</h5>
+      <div class="list-item">
+        <span>รายการผ่อนชำระ</span>
+        <span>฿ x,xxx.xx</span>
+      </div>
+      <div class="remark">
+        <h5>หมายเหตุ</h5>
+        <p>รายละเอียดการผ่อนชำระ
+        ผ่อนชำระ xx เดือน
+        ดอกเบี้ย 25% ต่อปี
+        ยอดผ่อนชำระต่อเดือน xxx.xx บาท</p>
+        
+        <p>ชำระคืนแอสเซนด์ นาโน ผ่านหน้าสินเชื่อ
+        สอบถามเพิ่มเติม ที่ศุนย์บริการลูกค้า แอสเซนด์ นาโน 
+        1240 กด 3 ในวันจันทร์ – วันศุกร์ เวลา 8.30 – 20.00 น. และวันเสาร์ – วันอาทิตย์ เวลา 10.00 – 20.00 น</p>
+      </div>
+      <div class="separator"></div>
+      <div class="link">ย่อรายละเอียด <i class="fa-solid fa-chevron-up"></i></div>
+      <div class="list-item">
+        <h5>ยอดชำระ</h5>
+        <h5>฿ 89.26</h5>
+      </div>
+    </section>
+    <section class="card">
+      <div class="list-item">
+        <h5>ช่องทางการชำระเงิน</h5>
+        <span class="link small-text">เปลี่ยน</span>
+      </div>
+      <div class="product-label">
+        <img src="https://belinda-css-challenge-fe.vercel.app/images/tmn-logo.png"/>
+        <h5>ทรูมันนี่ วอลเล็ท</h5>
+      </div>
+    </section>
+    
+    <!-- <img src="https://cdn-loan-resource.nno-dev.com/images/ic-product-paynextextra.png"/>
+    <img src="https://belinda-css-challenge-fe.vercel.app/images/tmn-logo.png"/>
+    <img src="https://belinda-css-challenge-fe.vercel.app/images/banner.png"/>
+    <img src="https://belinda-css-challenge-fe.vercel.app/images/repay-success.png"/> -->
+    
+    <!-- <ul>
+      <li>Pay Next Extra</li>
+      <li>รายละเอียด</li>
+      <li>รายการผ่อนชำระ</li>
+      <li>฿ x,xxx.xx</li>
+      <li>หมายเหตุ</li>
+      <li>รายละเอียดการผ่อนชำระ
+        ผ่อนชำระ xx เดือน
+        ดอกเบี้ย 25% ต่อปี
+        ยอดผ่อนชำระต่อเดือน xxx.xx บาท
+        
+        ชำระคืนแอสเซนด์ นาโน ผ่านหน้าสินเชื่อ
+        สอบถามเพิ่มเติม ที่ศุนย์บริการลูกค้า แอสเซนด์ นาโน 
+        1240 กด 3 ในวันจันทร์ – วันศุกร์ เวลา 8.30 – 20.00 น. และวันเสาร์ – วันอาทิตย์ เวลา 10.00 – 20.00 น</li>
+      <li>ย่อรายละเอียด<i class="fa-solid fa-chevron-up"></i></li>
+      <li>ยอดชำระ</li>
+      <li>฿ 89.26</li>
+      <li>ช่องทางการชำระเงิน</li>
+      <li>เปลี่ยน</li>
+      <li>ทรูมันนี่ วอลเล็ท</li>
+      <li>ยอดเงินที่มี 1,230.00 บาท</li>
+    </ul> -->
+
+
+  </body>
+</html>

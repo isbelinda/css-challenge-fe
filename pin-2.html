@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>your name</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Sarabun', sans-serif;
+        font-size: 16px;
+        max-width: 378px;
+      }
+      .navbar {
+        border-bottom: 1px solid #EFF0F4;
+        display: flex;
+        padding: 16px 0;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+      }
+      .navbar i {
+        padding: 0 16px;
+        color: #4B5161;
+      }
+      .navbar .spacer {
+        width: 44.5px;
+      }
+
+      .container {
+        margin: 0px 8px;
+      }
+
+      .card {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+      }
+
+      .card-center {
+        display: flex;
+        align-items: center;
+        padding: 8px 0px;
+        text-align: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      .divider {
+        border-bottom: 1px solid #EFF0F4;
+        width: 100%;
+        height: 1px;
+        margin: 4px 0px;
+      }
+
+      .list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 12px;
+      }
+
+      .remark {
+        background-color: antiquewhite;
+        padding: 10px 16px;
+        margin: 4px 8px;
+        border-radius: 8px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .amount {
+        text-align: center;
+        font-weight: 500;
+      }
+
+      .box {
+        border-radius: 8px;
+        border: 1px solid #EFF0F4;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+
+      .box-banner {
+        border-radius: 8px;
+        border: 1px solid #EFF0F4;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+
+      .icon-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      .button {
+        margin: 12px 0px;
+        display: flex;
+        border-radius: 30px;
+        background-color: rgb(255, 136, 0);
+        width: 100%;
+        padding: 12px 0px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+      }
+
+      /*
+        bg orange: #FFF2E5
+        orange primary: #FF8300
+        text black: #0E162C
+        text grey: #878B96
+        divider: #EFF0F4
+        link: #118DF5
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+        icon color: #4B5161;
+      */
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <i class="fa-solid fa-chevron-left"></i>
+      <b>ทำรายการสำเร็จ</b>
+      <div class="spacer"></div>
+    </nav>
+    
+
+    
+    <div class="container">
+      <div class="image-container">
+        <img src="https://belinda-css-challenge-fe.vercel.app/images/repay-success.png"/>
+      </div>
+      <div class="card-center">
+        ฿ x,xxx.xx     
+      </div>
+      <div class="box">
+        <div class="card">
+          <img style="margin-right: 16px;" height="30px;" src="https://cdn-loan-resource.nno-dev.com/images/ic-product-paynextextra.png"/>
+          Pay Next Extra    
+        </div>
+        <div class="divider"></div>
+        <div class="list">
+          <span>ช่องทางการชำระเงิน</span>
+          <span>ทรูมันนี่ วอลเล็ท</span>
+        </div> 
+        <div class="list">
+          <span>วันที่ทำรายการ </span>
+          <span>1ก.พ. 2564 10.34.05</span>
+        </div> 
+        <div class="list">
+          <span>หมายเลขการสั่งซื้อ  </span>
+          <span>304834784234334223</span>
+        </div> 
+        <div class="list">
+          <span>เลขที่รายการ</span>
+          <span>114809238457578475</span>
+        </div> 
+        <div class="divider"></div>
+        <div class="list">
+          <span>เงินต้นที่เลือกผ่อนชำระ</span>
+          <span>฿ x,xxx.xx  </span>
+        </div> 
+        <div class="divider"></div>
+        <div class="list">
+          <span>ยอดชำระทั้งหมด</span>
+          <span>฿ x,xxx.xx  </span>
+        </div> 
+        <div class="remark">
+          <p><b>หมายเหตุ</b></p>
+          รายละเอียดการผ่อนชำระ<br>
+          ผ่อนชำระ xx เดือน<br>
+          ดอกเบี้ย 25% ต่อปี<br>
+          ยอดผ่อนชำระต่อเดือน xxx.xx บาท<br><br>
+          
+          ชำระคืนแอสเซนด์ นาโน ผ่านหน้าสินเชื่อ<br>
+          สอบถามเพิ่มเติม ที่ศุนย์บริการลูกค้า แอสเซนด์ นาโน <br>
+          1240 กด 3 ในวันจันทร์ – วันศุกร์ เวลา 8.30 – 20.00 น. และวันเสาร์ – วันอาทิตย์ เวลา 10.00 – 20.00 น<br>
+        </div>
+        <div class="card">
+          <a href="#">ย่อรายละเอียด</a>
+        </div>
+        <div class="divider"></div>
+        <div class="card">
+          <div class="icon-wrapper">แชร์</div>
+          <div class="icon-wrapper">บันทึกใบเสร็จ</div>
+        </div>
+      </div>
+      <div class="button">กลับสู่หน้าหลัก</div>
+      <div class="box">
+        <img width="100%" src="https://belinda-css-challenge-fe.vercel.app/images/banner.png"/>
+      </div>
+  </body>
+</html>

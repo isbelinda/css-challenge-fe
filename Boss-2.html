@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Jullakiet (Boss)</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Sarabun", sans-serif;
+        font-size: 16px;
+        max-width: 378px;
+      }
+      .img-small {
+        width: 50px;
+        height: 50px;
+      }
+
+      .navbar {
+        border-bottom: 1px solid #eff0f4;
+        display: flex;
+        padding: 16px 0;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+      }
+      .navbar i {
+        padding: 0 16px;
+        color: #4b5161;
+      }
+      .navbar .spacer {
+        width: 44.5px;
+      }
+
+      p {
+        margin: 8px;
+      }
+
+      .d-flex {
+        display: flex;
+      }
+
+      .align-items-center {
+        align-items: center;
+      }
+
+      .justify-content-between {
+        justify-content: space-between;
+      }
+
+      .justify-content-center {
+        justify-content: center;
+      }
+
+      .m-1 {
+        margin-right: 15px;
+      }
+
+      .card {
+        margin: 8px;
+      }
+
+      .note {
+        background-color: #fff2e5;
+        padding: 15px;
+        border-radius: 3%;
+      }
+
+      a {
+        color: #118df5;
+        text-decoration: none;
+      }
+
+      .text-end {
+        text-align: end;
+      }
+
+      .flex-direction-reverse {
+        flex-direction: column;
+      }
+
+      /*
+        bg orange: #FFF2E5
+        orange primary: #FF8300
+        text black: #0E162C
+        text grey: #878B96
+        divider: #EFF0F4
+        link: #118DF5
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+        icon color: #4B5161;
+      */
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <i class="fa-solid fa-chevron-left"></i>
+      <b>ทำรายการสำเร็จ</b>
+      <div class="spacer"></div>
+    </nav>
+
+    <div class="card">
+      <div class="d-flex align-items-center flex-direction-reverse">
+        <img
+          src="https://belinda-css-challenge-fe.vercel.app/images/repay-success.png"
+        />
+        <h3>฿ x,xxx.xx</h3>
+      </div>
+
+      <div class="d-flex align-items-center">
+        <img
+          class="m-1 img-small"
+          src="https://cdn-loan-resource.nno-dev.com/images/ic-product-paynextextra.png"
+        />
+        <b>Pay Next Extra</b>
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <div>
+          <p>ช่องทางการชำระเงิน</p>
+          <p>วันที่ทำรายการ</p>
+          <p>หมายเลขการสั่งซื้อ</p>
+          <p>เลขที่รายการ</p>
+        </div>
+        <div class="text-end">
+          <p>ทรูมันนี่ วอลเล็ท</p>
+          <p>1 ก.พ. 2564 10:12:00</p>
+          <p>30513191212010268</p>
+          <p>1912121012005293UI8B</p>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-between card">
+        <span>เงินต้นที่เลือกผ่อนชำระ</span>
+        <span>฿ x,xxx.xx</span>
+      </div>
+      <div class="d-flex align-items-center justify-content-between card">
+        <span>ยอดชำระทั้งหมด</span>
+        <span>฿ x,xxx.xx</span>
+      </div>
+
+      <div class="note">
+        <b>หมายเหตุ</b>
+        <span>
+          รายละเอียดการผ่อนชำระ <br />ผ่อนชำระ xx เดือน <br />ดอกเบี้ย 25% ต่อปี
+          <br />ยอดผ่อนชำระต่อเดือน xxx.xx บาท <br /><br />ชำระคืนแอสเซนด์ นาโน
+          ผ่านหน้าสินเชื่อ สอบถามเพิ่มเติม ที่ศุนย์บริการลูกค้า แอสเซนด์ นาโน
+          1240 กด 3 ในวันจันทร์ – วันศุกร์ เวลา 8.30 – 20.00 น. และวันเสาร์ –
+          วันอาทิตย์ เวลา 10.00 – 20.00 น
+        </span>
+      </div>
+
+      <hr />
+      <a>ย่อรายละเอียด</a>
+    </div>
+  </body>
+</html>

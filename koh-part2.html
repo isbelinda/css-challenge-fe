@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Koh</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Sarabun", sans-serif;
+        font-size: 16px;
+        max-width: 378px;
+      }
+      .navbar {
+        border-bottom: 1px solid #eff0f4;
+        display: flex;
+        padding: 16px 0;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+      }
+      .navbar i {
+        padding: 0 16px;
+        color: #4b5161;
+      }
+      .navbar .spacer {
+        width: 44.5px;
+      }
+      .card {
+        display: flex;
+        padding: 16px;
+      }
+      .cardBorder {
+        border-bottom: 1px solid #eff0f4;
+      }
+      .cardColumn {
+        flex-direction: column;
+      }
+      .row {
+        display: flex;
+      }
+      .product-name {
+        flex-grow: 1;
+        margin: auto 0;
+      }
+      .product-logo {
+        width: 32px;
+        height: 32px;
+        margin: 8px;
+      }
+      .remark {
+        background-color: #fff2e5;
+        border-radius: 8px;
+        margin: 8px;
+        padding: 8px;
+      }
+      .remark-title {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .success-image {
+        margin: auto;
+      }
+      .payslip {
+        margin: 16px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+      }
+      .amount {
+        margin: auto;
+        text-align: center;
+      }
+      .label {
+        flex-grow: 1;
+      }
+      .totalAmount {
+        padding: 16px;
+      }
+
+      /*
+        bg orange: #FFF2E5
+        orange primary: #FF8300
+        text black: #0E162C
+        text grey: #878B96
+        divider: #EFF0F4
+        link: #118DF5
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+        icon color: #4B5161;
+      */
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <i class="fa-solid fa-chevron-left"></i>
+      <b>ยืนยันการทำรายการ</b>
+      <div class="spacer"></div>
+    </nav>
+
+    <img
+      class="card success-image"
+      src="https://belinda-css-challenge-fe.vercel.app/images/repay-success.png"
+    />
+    <h2 class="amount">฿ x,xxx.xx</h2>
+
+    <div class="payslip">
+      <div class="card cardBorder">
+        <img
+          class="product-logo"
+          src="https://cdn-loan-resource.nno-dev.com/images/ic-product-paynextextra.png"
+        />
+        <h3 class="product-name">Pay Next Extra</h3>
+      </div>
+
+      <div class="card cardBorder cardColumn">
+        <div class="row">
+          <span class="label">ช่องทางการชำระเงิน</span>
+          <span>ทรูมันนี่ วอลเล็ท</span>
+        </div>
+        <div class="row">
+          <span class="label">วันที่ทำรายการ</span>
+          <span>1 ก.พ. 2564 10:12:00</span>
+        </div>
+        <div class="row">
+          <span class="label">หมายเลขการสั่งซื้อ</span>
+          <span>30513191212010268</span>
+        </div>
+        <div class="row">
+          <span class="label">เลขที่รายการ</span>
+          <span>1912121012005293UI8B</span>
+        </div>
+      </div>
+
+      <div class="card cardBorder">
+        <span class="label">เงินต้นที่เลือกผ่อนชำระ</span>
+        <span>฿ x,xxx.xx</span>
+      </div>
+
+      <div class="row totalAmount">
+        <span class="label">ยอดชำระทั้งหมด</span>
+        <span>฿ x,xxx.xx</span>
+      </div>
+
+      <div class="remark">
+        <span class="remark-title">หมายเหตุ</span>
+        <p>
+          รายละเอียดการผ่อนชำระ ผ่อนชำระ xx เดือน ดอกเบี้ย 25% ต่อปี
+          ยอดผ่อนชำระต่อเดือน xxx.xx บาท ชำระคืนแอสเซนด์ นาโน ผ่านหน้าสินเชื่อ
+          สอบถามเพิ่มเติม ที่ศุนย์บริการลูกค้า แอสเซนด์ นาโน 1240 กด 3
+          ในวันจันทร์ – วันศุกร์ เวลา 8.30 – 20.00 น. และวันเสาร์ – วันอาทิตย์
+          เวลา 10.00 – 20.00 น
+        </p>
+      </div>
+
+    </div>
+
+    <!-- <img
+      src="https://belinda-css-challenge-fe.vercel.app/images/tmn-logo.png"
+    /> -->
+    <!-- <img src="https://belinda-css-challenge-fe.vercel.app/images/banner.png" /> -->
+
+    <!-- <i class="fa-solid fa-share-nodes"></i>
+    <i class="fa-solid fa-arrow-down-long"></i>
+    <i class="fa-solid fa-xmark"></i>
+    <ul>
+
+      <li>แชร์</li>
+      <li>บันทึกใบเสร็จ</li>
+      <li>กลับสู่หน้าหลัก</li>
+      <li>ทำรายการสำเร็จ</li>
+    </ul> -->
+
+    <!-- <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li>ย่อรายละเอียด<i class="fa-solid fa-chevron-up"></i></li>
+      <li>ยอดชำระ</li>
+      <li>฿ 89.26</li>
+      <li>ช่องทางการชำระเงิน</li>
+      <li>เปลี่ยน</li>
+      <li>ทรูมันนี่ วอลเล็ท</li>
+      <li>ยอดเงินที่มี 1,230.00 บาท</li>
+    </ul> -->
+  </body>
+</html>
